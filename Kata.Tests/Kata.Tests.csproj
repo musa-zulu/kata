@@ -13,4 +13,9 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kata.Shared\Kata.Shared.csproj" />
+    <ProjectReference Include="..\Kata\Kata.csproj" />
+  </ItemGroup>
+
 </Project>

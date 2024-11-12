@@ -1,4 +1,5 @@
-﻿using NSubstitute;
+﻿using Kata.Shared.Interfaces;
+using NSubstitute;
 using NUnit.Framework;
 
 namespace Kata.Tests;
@@ -22,20 +23,5 @@ public class CopierTests
     }    
 }
 
-public class Copier(ISource source, IDestination destination)
-{
-    internal void Copy()
-    {
-        
-    }
-}
 
-public interface ISource
-{
-    char ReadChar();
-}
 
-public interface IDestination
-{
-    void WriteChar(char charToCopy);
-}
