@@ -6,11 +6,11 @@ public class Copier(ISource _source, IDestination _destination)
 {
     public void Copy()
     {
-        char charector;
+        char character;
 
-        while ((charector = _source.ReadChar()) is not '\n')
+        while ((character = _source.ReadChar()) is not '\n')
         {
-            _destination.WriteChar(charector);
+            _destination.WriteChar(character);
         }
     }
 }
