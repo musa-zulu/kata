@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata", "Kata\Kata.csproj", "{8E795FC7-632C-4F46-BB68-59240A3D0B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Tests", "Kata.Tests\Kata.Tests.csproj", "{60E3026B-9FAA-428B-BA38-80197282631B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata", "Kata\Kata.csproj", "{C2271D1E-DAC2-43AF-A53E-C0659A2C0E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Shared", "Kata.Shared\Kata.Shared.csproj", "{376E8D80-78A7-4F81-BB8D-550AF1A0E287}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E795FC7-632C-4F46-BB68-59240A3D0B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E795FC7-632C-4F46-BB68-59240A3D0B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E795FC7-632C-4F46-BB68-59240A3D0B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E795FC7-632C-4F46-BB68-59240A3D0B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E3026B-9FAA-428B-BA38-80197282631B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E3026B-9FAA-428B-BA38-80197282631B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E3026B-9FAA-428B-BA38-80197282631B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E3026B-9FAA-428B-BA38-80197282631B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2271D1E-DAC2-43AF-A53E-C0659A2C0E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2271D1E-DAC2-43AF-A53E-C0659A2C0E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2271D1E-DAC2-43AF-A53E-C0659A2C0E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2271D1E-DAC2-43AF-A53E-C0659A2C0E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376E8D80-78A7-4F81-BB8D-550AF1A0E287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376E8D80-78A7-4F81-BB8D-550AF1A0E287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376E8D80-78A7-4F81-BB8D-550AF1A0E287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376E8D80-78A7-4F81-BB8D-550AF1A0E287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

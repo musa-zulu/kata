@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Kata.Shared\Kata.Shared.csproj" />
-  </ItemGroup>
-
 </Project>
