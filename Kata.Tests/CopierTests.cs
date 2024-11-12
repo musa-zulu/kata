@@ -25,7 +25,7 @@ public class CopierTests
     }  
     
     [Test]
-    public void Copy_GivenSourceContainsOnlyNewLineCahr_ShouldNotWriteAnything()
+    public void Copy_GivenSourceContainsOnlyNewLineChar_ShouldNotWriteAnything()
     {
         // Arrange
         var source = Substitute.For<ISource>();
@@ -41,7 +41,7 @@ public class CopierTests
     }
 
     [Test]
-    public void Copy_GivenSingleCharactorIsAvailable_ShouldWriteOneCharToTheDestination()
+    public void Copy_GivenSingleCharacterIsAvailable_ShouldWriteOneCharToTheDestination()
     {
         // Arrange 
         var source = Substitute.For<ISource>();
